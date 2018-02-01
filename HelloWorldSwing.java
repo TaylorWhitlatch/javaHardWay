@@ -8,7 +8,9 @@ public class HelloWorldSwing extends Canvas // C l a s s h e a d e r
 // T h e p a i n t m e t h o d
 {
 	g.drawString("Hello, World!",10, 10);
+	g.fillRect( 25, 25, 140, 40);
 } // E n d o f p a i n t
+
 	public static void main ( String [] args ){
 		HelloWorldSwing c = new HelloWorldSwing() ;
 		JFrame f = new JFrame() ;
